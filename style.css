@@ -1,24 +1,48 @@
 header{
     border-bottom: 1px solid black;
+    text-align: center;
   }
   
   main{
-    width: 800px;
+    width: 50vw;
   }
   
   aside{
     width: 180px;
     border: 1px solid black;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    top: 60vh;
+    
+    text-align: center;
   }
+  
+  aside:hover{
+    background-color: black;
+    color: white;
+    border: dashed 1px red;
+  }
+  
   
   footer{
     background-color: black;
     color: white;
     width: 100%;
+    position: sticky;
+    bottom: 0;
+    
+
   }
+  
   
   button{
     background-color: black;
     color: white;
     font-family: serif;
+  }
+  button:hover{
+    background-color: white;
+    color: black;
+    border: dashed 1px black ;
   }
